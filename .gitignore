@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+certs-162.252.80.136
+eventapi_staging_dockerimg.zip
+eventapi_production_dockerimg.zip
+internal/config/settings.prodconfig.toml
+internal/config/settings.stagconfig.toml
+
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.tar
+vendor*
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Logs
+logs
+*.log
+
+#uploads folder
+uploads
+#uploads/profile_pic/*.png
+#uploads/profile_pic/*.jpg
+#uploads/profile_pic/*.jpeg

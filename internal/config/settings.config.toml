@@ -1,0 +1,70 @@
+MoftakDevEmails = []
+Environment = "dev"
+TicketExpiryInSec = 1800
+TicketReservationReleaseTimeInSec = 5
+PORT=4000 
+[CockroachDB]
+  Host = ""
+  Port = ""
+  Database = ""
+  User = ""
+  SSL = 
+
+[BasicAuth]
+  Username = ""
+  Password = ""
+
+[SMTP]
+  Host = ""
+	Port = 465
+	User = ""
+	Password = ""
+	EmailFrom = ""
+
+[Image]
+	BasicURL = ""
+
+[Image.FolderPath.User]
+ Profile = ""
+ Poster = ""
+
+[Image.FolderPath.Conference]
+  Poster = ""
+	Thumbnail =""
+
+[Image.FolderPath.Sponsor]
+	Logo =""
+
+[Image.FolderPath.Startup]
+	Logo =""
+
+[Image.URLPrefix.User]
+  Profile = ""
+  Poster = ""
+
+[Image.URLPrefix.Conference]
+  Poster = ""
+	Thumbnail = ""
+
+[Image.URLPrefix.Sponsor]
+  Logo = ""
+
+[Image.URLPrefix.Startup]
+  Logo = ""
+
+[ForgotPassword]
+ ExpiryMinute = 15
+
+[Contact]
+	Phone = ""
+  Phone2 = ""
+  Email = ""
+  Web = ""
+  WebDisplay = ""
+
+[TicketSeller]
+	Roles = [""]
+
+[TicketChecker]
+	Roles = [""]
+	

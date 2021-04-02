@@ -1,0 +1,61 @@
+Environment = "staging"
+PORT=4000 
+[CockroachDB]
+  Host = "162.252.80.136"
+  Port = "26257"
+  Database = "eventvisor_staging"
+  User = "root"
+  SSL = true
+
+[BasicAuth]
+  Username = "foo"
+  Password = "bar"
+
+[SMTP]
+  Host = "smtp.yandex.com"
+	Port = 465
+	User = "noreply@liftpakistan.com"
+	Password = "Wh3e1$123"
+	EmailFrom = "noreply@liftpakistan.com"
+
+[Image]
+	BasicURL = "https://test-api.liftpakistan.com/"
+
+[Image.FolderPath.User]
+ Profile = "./uploads/user/profile/"
+ Poster = "./uploads/user/poster/"
+
+[Image.FolderPath.Conference]
+  Poster = "./uploads/conference/poster/"
+	Thumbnail ="./uploads/conference/thumbnail/"
+
+[Image.FolderPath.Sponsor]
+	Logo ="./uploads/sponsor/logo/"
+
+[Image.FolderPath.Startup]
+	Logo ="./uploads/startup/logo/"
+
+[Image.URLPrefix.User]
+  Profile = "profile"
+  Poster = "user/poster"
+
+[Image.URLPrefix.Conference]
+  Poster = "conference/poster"
+	Thumbnail = "conference/thumbnail"
+
+[Image.URLPrefix.Sponsor]
+  Logo = "sponsor/logo"
+
+[Image.URLPrefix.Startup]
+  Logo = "startup/logo"
+
+[ForgotPassword]
+ ExpiryMinute = 15
+
+[Contact]
+  Phone = "(+92)51-4571119"
+  Email = "info@liftpakistan.com"
+  Web = "https://www.liftpakistan.com/"
+  Phone2 = "(+92)3335262283"
+  WebDisplay = "www.liftpakistan.com"
+	
